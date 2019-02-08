@@ -2,6 +2,8 @@
 
 1. Review GitHub's API documentation [https://developer.github.com/v3/repos/#list-user-repositories] for the list user repositories endpoint to understand how this endpoint works.
 
+Example GitHub API endpoint: https://api.github.com/users/alexsjcho/repos
+
 #Requirements
 
 1. The user must be able to search for a GitHub user handle.
