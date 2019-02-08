@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
   console.log("Ready to fetch GitHub User Repo!");
-  userInput();
+  watchSubmitButton();
 });
 
 function userInput() {
@@ -11,7 +11,8 @@ function userInput() {
 }
 
 function watchSubmitButton() {
-  $("#click-submit").submit(e => {
+  $("#search-form").submit(e => {
+    console.log("it works!");
     e.preventDefault();
     fetchUserName(userInput);
   });
